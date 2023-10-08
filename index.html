@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart calculation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="left">
+            <h1>product</h1>
+            <div id="product1">
+                <span>Idli</span>
+                <span>100</span>
+                <ul>
+                    <li id="btn1m">-</li>
+                    <li id="count1">0</li>
+                    <li id="btn1p">+</li>
+                </ul>
+            </div>
+            <div id="product2"><span>Samosa</span>
+                <span>200</span>
+                <ul>
+                    <li id="btn2m">-</li>
+                    <li id="count2">0</li>
+                    <li id="btn2p">+</li>
+                </ul></div>
+            <div id="product3"><span>Patties</span>
+                <span>300</span>
+                <ul>
+                    <li id="btn3m">-</li>
+                    <li id="count3">0</li>
+                    <li id="btn3p">+</li>
+                </ul></div>
+        </div>
+        <div id="right">
+            <h1>cart</h1>
+            <div id="cart-product1">
+                <span>Idli</span>
+                <div class="price">
+                    <div id="c-count1">0</div>
+                    <div>x</div>
+                    <div>100</div>
+                </div>
+                
+            </div>
+            <div id="cart-product2">
+                <span>Samosa</span>
+                <div class="price">
+                    <div id="c-count2">0</div>
+                    <div>x</div>
+                    <div>200</div>
+                </div>
+                
+            </div>
+            <div id="cart-product3">
+                <span>Patties</span>
+                <div class="price">
+                    <div id="c-count3">0</div>
+                    <div>x</div>
+                    <div>300</div>
+                </div>
+                
+            </div>
+            <div id="total">
+                <h2>Total:</h2>
+                <div id="totalvalue"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
